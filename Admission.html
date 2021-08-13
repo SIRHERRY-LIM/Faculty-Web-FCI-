@@ -1,0 +1,641 @@
+<!---Author: HERRY LIM
+MATRIX NO: BI18110212
+HTML CODE for Admission
+This code style is control by both style.css and pages.css -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FKI Admission</title>
+    <link href="FKILOGOsmall.png" rel="icon">
+    <link rel='stylesheet' href='css/bootstrap.css' />
+    <link rel='stylesheet' href='css/font-awesome.min.css' />
+    <link rel='stylesheet' href='css/style.css' />
+    <link rel='stylesheet' href='css/default_theme.css' />
+    <link rel='stylesheet' href='css/hover.css' />
+    <link rel='stylesheet' href='css/animate.css' />
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700'>
+    <link rel='stylesheet' href='css/pages.css' />
+
+</head>
+
+<body>
+
+    <!-- Start Section Tool Box -->
+
+    <section class="option-box">
+        <div class="color-option">
+            <h4>Color Option</h4>
+            <ul class="list-unstyled">
+                <li data-value="css/default_theme.css"></li>
+                <li data-value="css/purple_theme.css"></li>
+                <li data-value="css/blue_theme.css"></li>
+                <li data-value="css/yellow_theme.css"></li>
+            </ul>
+        </div>
+        <i class="fa fa-gear fa-3x gear-check"></i>
+    </section>
+
+    <!-- End Section Tool Box -->
+
+    <!-- Start Our Navbar -->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#ournavbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand wobble-horizontal" href="#">FKI
+                    <span>UMS</span> <img src="DARKMODEFKILOGO.PNG" alt="FKI LOGO" width="30" height="30">
+                </a> </div>
+            <div class="collapse navbar-collapse" id="ournavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="ourprofile.html">Our Profile</a></li>
+                            <li><a href="http://fki.ums.edu.my/fki/facilities/">facility</a></li>
+                            <li><a href="http://fki.ums.edu.my/fki/download/">Download</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#"><strong style="text-decoration: underline;">Team</strong></a></li>
+                            <li><a href="http://fki.ums.edu.my/fki/academic-staff/">Academics</a></li>
+                            <li><a href="http://fki.ums.edu.my/fki/administrative-staff/">Administrative</a></li>
+
+                        </ul>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programmes<span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#"><strong style="text-decoration: underline;">Undergraduate</strong></a></li>
+                            <li><a href="http://fki.ums.edu.my/fki/software-engineering/">Software Engineering</a></li>
+                            <li><a href="http://fki.ums.edu.my/fki/network-engineering/">Network Engineering</a></li>
+                            <li><a href="http://fki.ums.edu.my/fki/multimedia-technology/">Multimedia Technology</a>
+                            </li>
+                            <li><a href="http://fki.ums.edu.my/fki/business-computing/">Business Computing</a></li>
+                            <li><a href="http://fki.ums.edu.my/fki/data-science/">Data Sciences</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#"><strong style="text-decoration: underline;">Postgraduate</strong></a></li>
+                            <li><a href="http://fki.ums.edu.my/fki/phd-computer-science/">Doctor of Philosophy (CS)</a>
+                            </li>
+                            <li><a href="http://fki.ums.edu.my/fki/phd-information-technology/">Doctor of Philosophy
+                                    (IT)</a></li>
+                            <li><a href="http://fki.ums.edu.my/fki/master-of-computer-science-by-research/">Master of
+                                    Science (CS)</a></li>
+                            <li><a href="http://fki.ums.edu.my/fki/master-of-information-technology-by-research/">Master
+                                    of Science (IT)</a></li>
+                        </ul>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research <span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="http://fki.ums.edu.my/fki/research-unit/">Research Unit</a></li>
+                            <li><a href="http://fki.ums.edu.my/fki/research-grp/">Research Group</a></li>
+                            <li><a href="http://fki.ums.edu.my/fki/collaboration/">Collaboration</a></li>
+                            <li><a href="http://fki.ums.edu.my/fki/publication/">Publication</a></li>
+                            <li><a href="http://fki.ums.edu.my/fki/fki-flagship-research-program/">Flagship Research
+                                    Program</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Admission.html">Admission</a></li>
+                    <li><a href="ALUMNI.html">Alumni</a></li>
+                </ul>
+            </div>
+        </div> <!-- End Of The Container -->
+    </nav>
+
+    <!-- End Our Navbar -->
+
+    <!-- Bootstrap Carousel W3SCHOOL Start Carousel -->
+
+    <div id="myslide" class="carousel slide hidden-xs" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+            <li data-target="#myslide" data-slide-to="0" class="active"></li>
+            <li data-target="#myslide" data-slide-to="1"></li>
+            <li data-target="#myslide" data-slide-to="2"></li>
+            <li data-target="#myslide" data-slide-to="3"></li>
+        </ol>
+
+        <div class="carousel-inner">
+
+            <div class="item active">
+                <img src="images/Admission/umskalresize.jpg" width="1920" height="600" alt="Pic 1">
+                <div class="carousel-caption hidden-xs">
+                    <h2 class="h1">WELCOME NEW STUDENTS TO FACULTY OF COMPUTING & INFORMATICS</h2>
+                    <p class="lead">Your First Step of Succession Start Here.
+                        A Journey of a Thousand Miles Begins with a Single Step.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/TwinTowerUMSresize.png" width="1920" height="600" alt="Pic 2">
+                <div class="carousel-caption hidden-xs">
+                    <h2 class="h1"><strong>FCI UMS</strong></h2>
+                    <p class="lead">
+                        <p><strong>Study While</strong> others are sleeping </p>
+
+                        <p><strong>Work While</strong> others are loafing</p>
+
+                        <p><strong>Prepare While</strong> others are playing and</p>
+                        <p><strong>Dream While</strong> others are wishing.</p>
+                    </p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/CompLABr.png" width="1920" height="600" alt="Pic 3">
+                <div class="carousel-caption hidden-xs">
+                    <h2 class="h1">EDUCATION</h2>
+                    <p class="lead">is The Passport to The Future, for <strong>Tomorrow</strong>
+                        Belongs to Those Who Prepare For it Today.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/GRADUATIONresize.png" width="1920" height="600" alt="Pic 4">
+                <div class="carousel-caption hidden-xs">
+                    <h2 class="h1">Success</h2>
+                    <p class="lead">“Man often becomes what he believes himself to be. If I keep on saying to myself
+                        that I cannot do a certain thing, it is possible that I may end by really becoming incapable of
+                        doing it. On the contrary, if I have the belief that I can do it, I shall surely acquire the
+                        capacity to do it even if I may not have it at the beginning.”
+                        <p><strong>Mahatma Gandhi</strong></p>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <a class="left carousel-control" href="#myslide" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+
+        <a class="right carousel-control" href="#myslide" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+
+    </div>
+
+    <!-- End Carousel -->
+
+    <!-- Start Section About -->
+
+    <section class="about text-center wow bounceInUp" data-wow-duration="2s" data-wow-offset="300">
+        <div class="container">
+            <h1>ADMISSIONS</h1>
+            <h1>Apply To University Malaysia Sabah, <span> UMS.</span></h1>
+            <p class="lead">Faculty of Computing & Informatics
+                <strong>UMS</strong></p>
+        </div>
+    </section>
+
+    <!-- End Section About -->
+
+    <!-- Start Section Features -->
+    <!--bootsrap component from https://getbootstrap.com/docs/3.3/components/-->
+    <section class="Admissionfeatures text-center">
+        <div class="container">
+            <!--<h2 class="h1">Our Features</h2>-->
+            <div class="row">
+
+                <div class="col-lg-4 col-md-8">
+
+                    <div class="feat wow bounceInLeft" data-wow-duration="1s" data-wow-offset="200">
+                        <span class="fa fa-university fa-2x"></span>
+                        <h3>University Malaysia Sabah</h3>
+                        <p style="text-align:left"> UMS was established in 1994. UMS has three campuses:
+                            in Kota Kinabalu and Sandakan, Sabah and
+                            in the Federal Territory of Labuan.
+                            <p><a href="http://10.45.50.64/fki/about-us/">Read more
+                                    <span class="glyphicon glyphicon-arrow-right"></span></a>
+                            </p>
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-8">
+
+                    <div class="feat wow bounceInDown" data-wow-duration="1s" data-wow-offset="200">
+                        <span class="fa fa-users fa-2x"></span>
+                        <h3>International Students</h3>
+                        <p style="text-align: left;"> Our faculty is provide with high-technology
+                            that follow industrial
+                            standard to make learning environment more conducive and
+                            expose students to working-like environment.
+                        </p>
+                        <form action="http://www.ums.edu.my/v5/admission/international">
+                            <button type="submit" class="btn btn-primary"> Apply</button>
+                        </form>
+
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-8">
+
+                    <div class="feat wow bounceInUp" data-wow-duration="1s" data-wow-offset="200">
+                        <span class="fa fa-graduation-cap fa-2x"></span>
+                        <h3>Bachelor, Master and Doctorate</h3>
+                        <p style="text-align: left;">UMS under Faculty Computing and Informatics
+                            offers programs and
+                            courses to produce graduates who will specialize but balanced,
+                            competent, devoted and patriotic.</p>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <!-- End Section Features -->
+
+    <section id="aboutApply" class="section-bg text-center">
+        <div class="container-fluid">
+            <!--<div class="section-header">-->
+            <h1 class="section-titleApply"><strong>HOW TO APPLY (TERMS & CONDITION)</strong>
+                <span class="fa fa-clipboard fa-2x"></span>
+            </h1>
+            <span class="section-divider"></span>
+            <style>
+                #aboutApply .section-titleApply {
+                    margin-bottom: 20px;
+                }
+            </style>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6 about-img wow fadeInLeft">
+                <img src="images/Apply/BachelorDegreeresize.jpg" alt="degree">
+            </div>
+
+            <div class="col-lg-6 content wow fadeInRight">
+                <h2>Bachelor Degree Programmes
+                    (only for local student)</h2>
+                <h3><strong>Start Date : 25 February 2019 (12 noon)</strong></h3>
+                <h3> <strong>Closing Date : 2 April 2019 (11.59 pm)</strong></h3>
+                <h3>
+                    <li style="text-align: left;">
+                        The application is open for applicants with
+                        <strong>STPM / Matriculation / STAM / Diploma / or
+                            equivalent.</strong>
+                    </li>
+                    <li style="text-align: left;"> Admission requirement to Universiti Malaysia Sabah is
+                        subjected to the ‘Peraturan Pengajian
+                        Prasiswazah UMS’.</li>
+                </h3>
+
+
+                <p>
+                    <p style="text-align: left;">For more information regards to the academic
+                        of Universiti Malaysia Sabah, please contact :</p>
+                    <p style="text-align: left;"><strong>Academic and Service Divisions,</strong></p>
+                    <P style="text-align: left;">Universiti Malaysia Sabah,</P>
+                    <p style="text-align: left;">Tel : (+6088) 320000 Ext: 691259.</p>
+                    <p style="text-align: left;">Website: <a href="http://bpa.ums.edu.my/">
+                            http://bpa.ums.edu.my/</a></p>
+                </p>
+                <p><a href="http://upu.moe.gov.my/web/"><strong>Apply Now</strong></a> </p>
+            </div>
+        </div>
+
+        </div>
+    </section><!-- End About Section -->
+
+    <!--Master apply-->
+    <section id="master-features">
+
+        <div class="features-row section-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <img class="master-feature-img-right wow fadeInRight" src="images/Apply/masterresize.jpg"
+                            width="450" height="500" alt="masterdegree">
+                        <div class="wow fadeInLeft">
+                            <h1>MASTER DEGREE APPLICATION</h1>
+                            <h4>Applications must be submitted online at
+                                <a href="http://mohon.ums.edu.my/pasca/">http://mohon.ums.edu.my/pasca/</a>
+                                Applications for research programmes are open throughout the year.
+                                Candidate may apply anytime except for programmes with pre-requisite
+                                courses. Applications for Research programmes are open throughout the year.</h4>
+                            <h1>Application Guidelines</h1>
+                            <h4><strong>Step 1</strong></h4>
+                            <p>
+                                <h4>Kindly complete on-line application form at
+                                    <a href="http://mohon.ums.edu.my/pasca/">
+                                        http://mohon.ums.edu.my/pasca/</a> </h4>
+                            </p>
+                            <h4><strong>Step 2</strong></h4>
+                            <p>
+                                <h4>
+                                    Upload all required document as needed
+                                </h4>
+                            </p>
+                            <h4><strong>Step 3</strong></h4>
+                            <P>
+                                <h4>
+                                    <ol style="list-style-type: lower-alpha;">
+                                        <li>Once all the online procedure is completed, kindly go to “Click To Confirm
+                                            Application”
+                                            button to get the complete application form.
+                                            Please keep the documents for your own record.</li>
+                                        <li>You are not allowed to edit your on-line application
+                                            after pressing “Click To Confirm Application” button.</li>
+                                        <li>
+                                            You may check your application status
+                                            via on-line from <a href="http://mohon.ums.edu.my/pasca/">
+                                                http://mohon.ums.edu.my/pasca/</a>
+                                            two months after the date of your application.
+                                        </li>
+
+                                    </ol>
+                                </h4>
+                            </P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end Master section-->
+
+        <!--Doctorate apply--->
+        <section id="doctorateApply" class="section-bg text-center">
+
+
+            <div class="row">
+                <div class="col-lg-6 about-img wow fadeInLeft">
+                    <img src="images/Apply/PhD.jpg" width="431" height="500" alt="PhD">
+                </div>
+
+                <div class="col-lg-6 content wow fadeInRight">
+                    <h1 style="text-align: left;">DOCTORATE APPLICATION</h1>
+                    <h4 style="text-align: left;"> Applications must be submitted online at
+                        <a href="http://mohon.ums.edu.my/pasca/">http://mohon.ums.edu.my/pasca/</a>
+                        Applications for research programmes are open throughout the year.
+                        Candidate may apply anytime except
+                        for programmes with pre-requisite courses. Applications
+                        for Research programmes are open throughout the year.</h4>
+                    <h1 style="text-align: left;">Application Guidelines</h1>
+                    <h4 style="text-align: left;"><strong>Step 1</strong></h4>
+
+                    <p>
+                        <h4 style="text-align: left;">
+                            Kindly complete on-line
+                            application form at <a
+                                href="http://mohon.ums.edu.my/pasca/">http://mohon.ums.edu.my/pasca/</a></h4>
+                    </p>
+                    <h4 style="text-align: left;"><strong>Step 2</strong></h4>
+                    <P>
+                        <h4 style="text-align: left;">
+                            Upload all required document as needed
+                        </h4>
+                    </P>
+                    <h4 style="text-align: left;"><strong>Step 3</strong></h4>
+                    <P>
+                        <h4 style="text-align: left;">
+                            <ol style="list-style-type: lower-alpha;">
+                                <li>Once all the online procedure is completed, kindly go to “Click To Confirm
+                                    Application”
+                                    button to get the complete application form.
+                                    Please keep the documents for your own record.</li>
+                                <li>You are not allowed to edit your on-line application
+                                    after pressing “Click To Confirm Application” button.</li>
+                                <li>
+                                    You may check your application status
+                                    via on-line from <a href="http://mohon.ums.edu.my/pasca/">
+                                        http://mohon.ums.edu.my/pasca/</a>
+                                    two months after the date of your application.
+                                </li>
+
+                            </ol>
+                        </h4>
+                    </P>
+                </div>
+            </div>
+
+            </div>
+        </section><!-- End Doctorate Apply -->
+
+        <!---Start things to know first & when to apply-->
+        <section id="thingsApply" class="section-bg text-center">
+            <div class="row">
+                <div class="col-lg-6 content-left wow fadeInLeft">
+                    <h1 style="text-align: left;">Things To Know First</h1>
+                    <h3 style="text-align: left;">The Common Application is required for
+                        students applying to any of University. You’ll be able to
+                        choose your campus and programs that you are interested.</h3>
+                    <h4>
+                        <ul style="list-style: none;text-align: left;">
+                            <li>
+                                Entrance application to UMS for every year intake is through
+                                online application managed by Student Admission Management
+                                Division, Department of Higher Education Malaysia.
+                            </li>
+                            <li>
+                                Applicants can surf the
+                                <a href="http://upu.moe.gov.my/">http://upu.moe.gov.my/</a>
+                                website to obtained complete information on the
+                                programme general and specific requirement and
+                                submit the application through online after the
+                                advertisement was published on the local main newspaper.
+                            </li>
+                        </ul>
+                    </h4>
+                    <p>
+                        <p>
+                            <form action="http://upu.moe.gov.my/web/">
+                                <button type="submit" class="btn btn-primary">Student Admission</button>
+                            </form>
+                        </p>
+
+                        <p>
+                            <form
+                                action="http://bpa.ums.edu.my/images/dokumen/syarat_kemasukan/Syarat_Kemasukan_Prasiswazah_2019.pdf">
+                                <button type="submit" class="btn btn-primary"> Requirement for Entrance</button>
+                            </form>
+                        </p>
+                    </p>
+                </div>
+
+                <div class="col-lg-6 content-right wow fadeInRight">
+                    <h1 style="text-align: left;">When To Apply?</h1>
+                    <table id="intake">
+                        <tr>
+                            <th>Intake</th>
+                            <th>Application Deadline</th>
+                            <th>Decision</th>
+                        </tr>
+                        <tr>
+                            <td><strong>1st Intake</strong></td>
+                            <td>February 25 - April 2</td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> <strong>2nd Intake</strong></td>
+                            <td> </td>
+                            <td> </td>
+                        </tr>
+                    </table>
+                    <h3 style="text-align: left;"><strong>For more information regards to the academic of
+                            Universiti Malaysia Sabah, please contact :</strong></h3>
+                    <h4 style="text-align: left;"><strong>Academic and Service Divisions,</strong></h4>
+                    <h4 style="text-align: left;">Universiti Malaysia Sabah,</h4>
+                    <h4 style="text-align: left;">Tel : (+6088) 320000 Ext: 691259 .</h4>
+                    <h4 style="text-align: left;">Website:
+                        <a href="http://bpa.ums.edu.my/">http://bpa.ums.edu.my/ </a></h4>
+                </div>
+            </div>
+
+            </div>
+        </section><!-- End things to know first & when to apply -->
+
+        <!-- Start Ultimate Footer Section -->
+
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <h3>Sitemap</h3>
+                        <ul class="list-unstyled three-columns">
+                            <li><a href="https://www.ums.edu.my/v5/">UMS website</a> </li>
+                            <li><a href="https://staff.ums.edu.my/portal/login">Staff Portal</a></li>
+                            <li><a href="https://registrar.ums.edu.my/staff/web/site/login"> HR Online</a></li>
+                            <li><a href="https://star.ums.ac.id/sia/">STAR</a></li>
+                            <li><a href="https://smp.ums.edu.my/"> Student Information System (SMP)</a></li>
+                            <li><a href="https://www.ums.edu.my/jtmk/en">Smartdesk UMS</a></li>
+                            <li><a href="https://www.ums.edu.my/library/en/">Library</a></li>
+                            <li><a href="https://www.ums.edu.my/v5/en/e-participation"> e-Response</a></li>
+                            <li><a href="https://www.ums.edu.my/v5/en/e-participation">e-Participant</a> </li>
+                            <li><a href="https://www.ums.edu.my/v5/en/user-opinion-features">Tag cloud</a> </li>
+                            <li><a href="http://mohe.gov.my/en/data-sharing"> Open Data</a></li>
+                            <li><a href="https://www.ums.edu.my/v5/en/statistic-of-online-services"> Statistic Online
+                                    Service</a></li>
+                            <li><a href="http://fpx.ums.edu.my/"> FPX UMS</a></li>
+                            <li><a href="https://www.ums.edu.my/jtmk/ict"> ICT Literacy</a></li>
+                        </ul>
+                        <ul class="list-unstyled social-list">
+                            <li><a href="https://www.facebook.com/groups/730995416949733/"><img
+                                        src="images/social-bookmarks/facebook.png" width="48" height="48"
+                                        alt="Facebook" /></a>
+                            </li>
+                            <li><img src="images/social-bookmarks/gplus.png" width="48" height="48" alt="Google Plus" />
+                            </li>
+                            <li><img src="images/social-bookmarks/twitter.png" width="48" height="48" alt="Twitter" />
+                            </li>
+                            <li><img src="images/social-bookmarks/pinterest.png" width="48" height="48"
+                                    alt="Pinterest" />
+                            </li>
+                            <li><img src="images/social-bookmarks/rss.png" width="48" height="48" alt="Rss" /></li>
+                            <li><a href="mailto:pejfki@ums.edu.my"> <img src="images/social-bookmarks/email.png"
+                                        width="48" height="48" alt="Email" /></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h3>Contact Us</h3>
+
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img class="media-object" src="images/articles/fkibuildingresize.jpg" width="64"
+                                    height="64" alt="fki building" />
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    Faculty of Computing & Informatics
+                                </h4>
+                                Universiti Malaysia Sabah, Sabah, Malaysia.
+                            </div>
+                        </div>
+
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img class="media-object" src="images/articles/02.jpg" width="64" height="64"
+                                    alt="Image 02" />
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    Tel & Fax
+                                </h4>
+                                Tel :087-503000 Ext: 410300
+                                Fax :087-503114
+                            </div>
+                        </div>
+
+                        <div class="media">
+                            <a class="pull-left" href="mailto:pejfki@ums.edu.my">
+                                <img class="media-object" src="images/social-bookmarks/email.png" width="64" height="64"
+                                    alt="email" />
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    Email
+                                </h4>
+                                Email: pejfki@ums.edu.my
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>Our Lab Facility</h3>
+                        <img class="img-thumbnail" src="images/building/graphicresize.jpg" width="150" height="100"
+                            alt="Image 01" />
+                        <img class="img-thumbnail" src="images/building/hainaresize.jpg" width="150" height="100"
+                            alt="Image 02" />
+                        <img class="img-thumbnail" src="images/building/MyCyberSecurresize.jpg" width="150" height="100"
+                            alt="Image 03" />
+                        <img class="img-thumbnail" src="images/building/solaris-scaled.jpg" width="150" height="100"
+                            alt="Image 04" />
+                    </div>
+                </div>
+            </div>
+            <div class="copyright text-center">
+                Copyright &copy; 2020 <span>Herry Lim</span> FKI
+            </div>
+        </section>
+
+        <!-- End Ultimate Footer Section -->
+
+        <!-- Start Section Loading -->
+
+        <div class="loading-overlay">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+
+        <!-- End Section Loading -->
+
+        <!-- Start Scroll To Top -->
+
+        <div id="scroll-top">
+            <i class="fa fa-angle-double-up fa-3x"></i>
+        </div>
+
+        <!-- End Scroll To Top -->
+
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <script src="js/jquery.nicescroll.min.js"></script>
+</body>
+
+</html>

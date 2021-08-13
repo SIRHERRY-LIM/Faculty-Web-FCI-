@@ -1,0 +1,468 @@
+/*******  
+Author: HERRY LIM
+MATRIX NO: BI18110212
+This css code will control all the style of the pages except the homepage
+********/
+
+
+/* Start About Us */
+
+.about-us {
+    padding: 70px 0
+}
+
+.about-us h1 {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: -3px;
+    font-size: 62px
+}
+
+.about-us hr {
+    width: 70%
+}
+
+.aboutUS-features {
+    background-color: #EEE;
+}
+
+.aboutUS-features {
+
+    padding: 0 0 70px
+}
+
+.aboutUS-features h3 {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: -1px
+}
+
+.aboutUS-features p {
+    margin-bottom: 10px
+}
+
+.aboutUS-features {
+    padding-top: 30px;
+}
+
+/* End About US */
+
+/* Start dean-talk*/
+.dean-talk {
+    background-color: white;
+    padding-top: 60px
+}
+
+.dean-talk h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.dean-talk .lead {
+    line-height: 1.8
+}
+
+.dean-talk .btn-primary {
+    background-color: #333;
+    border-color: #333;
+    display: inline-block;
+    margin-bottom: 30px
+}
+
+/*End dean-tal*/
+
+/* Start Admission-Features */
+
+.Admissionfeatures {
+    background: #EEE
+}
+
+.Admissionfeatures .feat {
+    margin-bottom: 30px
+}
+
+.Admissionfeatures .feat p {
+    line-height: 2em;
+    font-size: medium;
+}
+
+.Admissionfeatures {
+    padding-top: 20px;
+}
+
+/* End Section Admission-Features */
+/* Start about-Apply*/
+
+#aboutApply {
+    padding: 60px 0;
+    overflow: hidden;
+    padding-top: 30px;
+    max-width: 90%;
+}
+
+#aboutApply .about-img {
+    height: 510px;
+    overflow: hidden;
+}
+
+#aboutApply .about-img img {
+    margin-left: -15px;
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+
+    #aboutApply .content {
+        margin-left: 6%;
+    }
+
+    #aboutApply .about-img {
+        height: auto;
+    }
+
+    #aboutApply .about-img img {
+        margin-left: 10%;
+        padding-bottom: 30px;
+    }
+}
+
+#aboutApply .content .h2 {
+    color: #333;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+#aboutApply .content h3 {
+    color: #777;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    font-style: italic;
+}
+
+#aboutApply .content h3 li {
+    font-style: normal;
+    color: black;
+    margin-bottom: 20px;
+}
+
+#aboutApply .content p {
+    font-style: normal;
+    font-size: medium;
+}
+
+/* End about-Apply*/
+
+/* Start Master apply
+--------------------------------*/
+#master-features {
+    overflow: hidden;
+    background-color: #EEE;
+
+}
+
+#master-features .features-row {
+    padding: 60px 0;
+}
+
+#master-features h1 {
+    font-weight: 700;
+    color: #000;
+}
+
+#master-features h4 {
+    color: black;
+}
+
+#master-features .content p h4 {
+    line-height: 24px;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+#master-features .master-feature-img-right {
+    max-width: 100%;
+    float: right;
+    padding: 0 0 30px 30px;
+}
+
+
+@media (max-width: 767px) {
+
+    #master-features .master-feature-img-right,
+    #master-features .master-feature-img-left {
+        max-width: 100%;
+        float: none;
+        padding: 0 0 30px 0;
+    }
+
+    #master-features .features-row {
+        margin-left: 6%;
+        max-width: 90%;
+    }
+}
+
+/*end of master apply*/
+
+/* Start PhD Apply*/
+
+#doctorateApply {
+    padding: 60px 0;
+    overflow: hidden;
+    padding-top: 80px;
+
+    background-color: white;
+}
+
+#doctorateApply .row {
+
+    max-width: 95%;
+}
+
+#doctorateApply h1 {
+    font-weight: 700;
+    color: #000;
+
+}
+
+#doctorateApply h4 {
+    color: black;
+}
+
+#doctorateApply .content p h4 {
+    line-height: 24px;
+    color: #777;
+    margin-bottom: 30px;
+
+}
+
+
+#doctorateApply .about-img {
+    height: 510px;
+    overflow: hidden;
+}
+
+#doctorateApply .about-img img {
+    margin-left: -15px;
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+
+    #doctorateApply .content {
+        margin-left: 6%;
+    }
+
+    #doctorateApply .about-img {
+        height: auto;
+    }
+
+    #doctorateApply .about-img img {
+        margin-left: 10%;
+        padding-bottom: 30px;
+    }
+}
+
+#doctorateApply .content .h2 {
+    color: #333;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+#doctorateApply .content h3 {
+    color: #777;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    font-style: italic;
+}
+
+#doctorateApply .content h3 li {
+    font-style: normal;
+    color: black;
+    margin-bottom: 20px;
+}
+
+#doctorateApply .content p {
+    font-style: normal;
+    font-size: medium;
+}
+
+/*end phd apply*/
+
+/* start things to know first & when to apply*/
+#thingsApply {
+    padding: 60px 0;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #EEE;
+}
+
+#thingsApply .row {
+
+    max-width: 95%;
+    margin-left: 3%;
+
+}
+
+#thingsApply .content-left h1 {
+    font-weight: 700;
+    color: black;
+
+}
+
+
+#thingsApply .content-left h3 {
+    color: #777;
+    word-spacing: 2px;
+    margin-bottom: 1em;
+}
+
+#thingsApply .content-left h4 ul {
+    margin-bottom: 3em;
+}
+
+#thingsApply .content-left h4 ul li {
+    max-width: 90%;
+    margin-bottom: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+#thingsApply .content-left h4 ul li::before {
+    content: "\2713";
+    color: deepskyblue;
+    letter-spacing: 1em;
+
+}
+
+#thingsApply .content-right h1 {
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+#intake {
+    margin-bottom: 3em;
+}
+
+@media (max-width: 768px) {
+
+    #thingsApply .content {
+        margin-left: 6%;
+        max-width: 98%;
+    }
+
+    #thingsApply .content-left {
+        height: auto;
+    }
+
+    #thingsApply .content-left {
+        margin-left: 10%;
+        padding-bottom: 30px;
+
+    }
+}
+
+/* End things to know first & when to apply*/
+
+/*______________________*/
+/*Table style for intake*/
+#intake {
+
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#intake td,
+#intake th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#intake tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#intake tr:hover {
+    background-color: #ddd;
+}
+
+#intake th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: dodgerblue;
+    color: white;
+}
+
+/*end of table style*/
+
+/*  Start Alumni
+--------------------------------*/
+#alumni-features {
+    overflow: hidden;
+    background-color: #EEE;
+
+
+}
+
+#alumni-features .features-row {
+    padding: 60px 0;
+    max-width: 98%;
+
+}
+
+#alumni-features h4 {
+    line-height: 24px;
+    color: #777;
+
+}
+
+#alumni-features .alumni-feature-img-right {
+    max-width: 100%;
+    float: right;
+    padding: 0 0 30px 30px;
+}
+
+
+@media (max-width: 767px) {
+
+    #alumni-features .alumni-feature-img-right,
+    #alumni-features .alumni-feature-img-left {
+        max-width: 100%;
+        float: none;
+        padding: 0 0 30px 0;
+    }
+
+    #alumni-features .features-row {
+        margin-left: 6%;
+        max-width: 90%;
+    }
+}
+
+#about-alumni {
+    background: url('../umskal.jpg') no-repeat center center fixed;
+    min-height: 450px;
+    color-interpolation-filters: sRGB;
+    margin-bottom: 5em;
+}
+
+#about-alumni .container {
+    background: rgba(2, 2, 2, 0.8);
+    color: white;
+    opacity: 0.5;
+
+}
+
+#about-alumni h1 {
+    color: white;
+    text-align: center;
+    font-weight: 1000;
+}
+
+#about-alumni h3 {
+    color: white;
+    word-spacing: 10px;
+
+
+}
+
+/* End Section Alumni*/
